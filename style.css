@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+:root {
+    --br-color: #232D3F;
+    --primary-color: #f1f1f1;
+    --secundary-color: #008170;
+    --terceary-color: #005B41;
+    --font: "Faculty Glyphic", serif;
+}
+
+body {
+    background-color: var(--br-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: var(--br-color);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--br-color);
+    color: var(--primary-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
