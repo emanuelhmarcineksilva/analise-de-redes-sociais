@@ -17,13 +17,13 @@ body {
 }
 
 header {
-    background-color: var(--br-color);
+    background-color: var(--primary-color);
     text-align: center;
 }
 
 h1 {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--br-color);
     font-weight: 700;
 }
 
@@ -35,7 +35,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--br-color);
     padding: 0 2rem;
     font-size: 1.2rem;
 }
@@ -50,8 +50,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--br-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--br-color);
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
