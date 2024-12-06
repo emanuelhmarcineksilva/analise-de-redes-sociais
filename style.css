@@ -3,7 +3,7 @@
 :root {
     --br-color: #232D3F;
     --primary-color: #f1f1f1;
-    --secundary-color: #008170;
+    --secundary-color: #e62828;
     --terceary-color: #005B41;
     --font: "Faculty Glyphic", serif;
 }
@@ -44,6 +44,26 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
+}
+
+.grafico {
+    margin-top: 3rem;
+}
+
+.graficos-container {
+    margin: 5rem;
+}
+
+.grafico-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+}
+
+span {
+    color: var(--secundary-color);
+    font-weight: bold;
 }
 
 footer {
