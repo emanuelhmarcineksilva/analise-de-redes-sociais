@@ -12,19 +12,39 @@
         <h1>Relatório das redes sociais:</h1>
         <nav>
             <a href="#">Mundo</a>
-            <a href="#">Minha escola</a>
+            <a id="botao-meus-projetos" onclick="surgirPgFlutuante()">Meus Projetos</a>
         </nav>
     </header>
     <main class="graficos-section">
         <section id="graficos-container" class="graficos-container">
         <!-- crie os gráficos/texto aqui -->
         </section>
+
+        <section class="pagina-projetos">
+            <!-- Página projetos -->
+             <div class="pg-flutuante">
+                <button class="sair-pg-flutuante" onclick="esconderPgFlutuante()">X</button>
+                <h2 class="titulo_projetos">Meus projetos:</h2>
+                <nav>
+                    <ul>
+                        <a href="https://clima-beta-ivory.vercel.app/"><li class="itens-lista">Veja o clima da sua região!</li></a>
+                        <a href="https://task-mu-steel.vercel.app/"><li class="itens-lista">Crie sua lista!</li></a>
+                        <a href="https://quizz-test-beta.vercel.app/"><li class="itens-lista">Teste Quizz!</li></a>
+                        <a href="https://hora-de-reciclar.vercel.app/"><li class="itens-lista">Game Reciclar!</li></a>
+                        <a href="https://gerador-de-senhas-five-gamma.vercel.app/"><li class="itens-lista">Gerador de senhas!</li></a>
+                        <a href="https://calculator-lyart-omega-69.vercel.app/"><li class="itens-lista">Calculadora!</li></a>
+                    </ul>
+                </nav>
+                <p class="conheca-meu-github">De uma olhada no meu GitHub e nos projetos que estou criando! Clique <a href="https://github.com/emanuelhmarcineksilva">AQUI</a> para conferir tudo o que estou fazendo por lá.</p>
+             </div>
+        </section>
     </main>
     <footer>
-        <p>Desenvolvido por Emanuel</p>
+        <p>Desenvolvido por Emanuel, com base no projeto do curso Alura "Ciência de dados: criando gráficos dinâmicos com JavaScript".</p>
     </footer>
     <script type="module" src="common.js"></script>
     <script type="module" src="informacoesGlobais.js"></script>
     <script type="module" src="quantidadesUsuarios.js"></script>
+    <script src="projetos.js"></script>
 </body>
 </html>
