@@ -43,6 +43,7 @@ nav a {
     color: var(--br-color);
     padding: 0 2rem;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 nav a:hover {
